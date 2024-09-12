@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h2>Formulario de Datos</h2>
+    <form>
+        <fieldset>
+        <legend>Datos Personales</legend>
+        
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+
+        <div>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+        </div>
+        <div>
+            <label for="DNI">DNI:</label>
+            <input type="text" id="DNI" name="DNI" required>
+        </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Datos de Conexion</legend>
+            <div>
+                <label>Nombre de Usuario</label>
+                <input type="text" id="usuario" name="usuario" required>
+            </div>  
+            <div>
+              <label>Contraseña</label>
+              <input type="text" id="contraseña" name="contraseña" required>
+            </div>
+            
+        </fieldset>      
+    </form>
+</body>
+</html>
