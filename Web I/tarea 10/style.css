@@ -1,0 +1,208 @@
+
+.titulo h1{
+    font-family: Tofino, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 2.6rem;
+    text-align:left; 
+    margin-bottom: 20px;
+    max-width: 800px;   
+    margin-left: auto;  
+    margin-right: auto;
+    max-width: 1200px; 
+    margin: 0 auto;     
+    padding: 20px;
+
+}
+.img-centro, .img-centro2 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    margin-bottom: 20px;    
+    max-width: 100%;  
+    height: auto;     
+    border-radius: 5px;
+  }
+
+  p {
+    font-family: 'Charter', Georgia, serif;
+    
+}
+.texto1, .texto2 {
+  font-family: "Charter, Georgia, serif";  
+  font-size: 1.2rem;                       
+  line-height: 1.5;                        
+  text-align: justify;                     
+  max-width: 1200px;                       
+  margin: 0 auto 20px auto;                
+  padding: 0 20px;                         
+  }
+  
+  .img-centro3{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.subtitulo{
+  font-family: "Charter, Georgia, serif";   
+  font-size: 1.2rem;                       
+  line-height: 1.5;                        
+  text-align: justify;                     
+  max-width: 1200px;                       
+  margin: 0 auto 20px auto;                
+  padding: 0 20px;    
+}
+
+table {
+  width: 100%; 
+  border-collapse: collapse; 
+  margin-top: 20px; 
+  max-width: 1200px;
+  margin: 0 auto 20px auto;
+  padding: 0 20px;
+
+}
+th, td {
+  border-bottom: 1px solid #ddd;
+  border-left: none;  
+  border-right: none; 
+  padding: 12px; 
+  text-align: left; 
+}
+
+.subt2{
+  font-family: "Charter, Georgia, serif";   
+  font-size: 1.2rem;                       
+  line-height: 1.5;                        
+  text-align: justify;                     
+  max-width: 1200px;                       
+  margin: 0 auto 20px auto;                
+  padding: 0 20px;   
+}
+.texto-Proc{
+  font-family: "Charter, Georgia, serif";  
+  font-size: 1.2rem;                       
+  line-height: 1.5;                        
+  text-align: justify;                     
+  max-width: 1200px;                       
+  margin: 0 auto 20px auto;                
+  padding: 0 20px;
+}
+.imagen4{
+  display: flex;
+    justify-content: center; 
+    align-items: center;     
+    margin-bottom: 20px;    
+    max-width: 100%;  
+    height: auto;     
+    border-radius: 5px;
+}
+.texto-Ben{
+  font-family: "Charter, Georgia, serif";  
+  font-size: 1.2rem;                       
+  line-height: 1.5;                        
+  text-align: justify;                     
+  max-width: 1200px;                       
+  margin: 0 auto 20px auto;                
+  padding: 0 20px;
+}
+.imagen5{
+  display: flex;
+    justify-content: center; 
+    align-items: center;     
+    margin-bottom: 20px;    
+    max-width: 100%;  
+    height: auto;     
+    border-radius: 5px;
+}
+.texto-F{
+  font-family: "Charter, Georgia, serif";  
+  font-size: 1.2rem;                       
+  line-height: 1.5;                        
+  text-align: justify;                     
+  max-width: 1200px;                       
+  margin: 0 auto 20px auto;                
+  padding: 0 20px;
+}
+.subt-Camara{
+  font-family: "Charter, Georgia, serif";   
+  font-size: 1.2rem;                       
+  line-height: 1.5;                        
+  text-align: justify;                     
+  max-width: 1200px;                       
+  margin: 0 auto 20px auto;                
+  padding: 0 20px;   
+}
+.texto-Cam{
+  font-family: "Charter, Georgia, serif";  
+  font-size: 1.2rem;                       
+  line-height: 1.5;                        
+  text-align: justify;                     
+  max-width: 1200px;                       
+  margin: 0 auto 20px auto;                
+  padding: 0 20px;
+}
+.imagen6{
+  display: flex;
+    justify-content: center; 
+    align-items: center;     
+    margin-bottom: 20px;    
+    max-width: 100%;  
+    height: auto;     
+    border-radius: 5px;
+}
+.texto-Cam2{
+  font-family: "Charter, Georgia, serif";  
+  font-size: 1.2rem;                       
+  line-height: 1.5;                        
+  text-align: justify;                     
+  max-width: 1200px;                       
+  margin: 0 auto 20px auto;                
+  padding: 0 20px;
+}
+.imagen7{
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  margin-bottom: 20px;    
+  max-width: 100%;  
+  height: auto;     
+  border-radius: 5px;
+}
+.texto7{
+  font-family: "Charter, Georgia, serif";  
+  font-size: 1.2rem;                       
+  line-height: 1.5;                        
+  text-align: justify;                     
+  max-width: 1200px;                       
+  margin: 0 auto 20px auto;                
+  padding: 0 20px;
+}
+.subt-precio{
+  font-family: "Charter, Georgia, serif";   
+  font-size: 1.2rem;                       
+  line-height: 1.5;                        
+  text-align: justify;                     
+  max-width: 1200px;                       
+  margin: 0 auto 20px auto;                
+  padding: 0 20px;   
+}
+.texto-precio{
+  font-family: "Charter, Georgia, serif";  
+  font-size: 1.2rem;                       
+  line-height: 1.5;                        
+  text-align: justify;                     
+  max-width: 1200px;                       
+  margin: 0 auto 20px auto;                
+  padding: 0 20px;
+}
+.ul.il{
+  font-family: "Charter, Georgia, serif";  
+  font-size: 1.2rem;                       
+  line-height: 1.5;                        
+  text-align: justify;                     
+  max-width: 1200px;                       
+  margin: 0 auto 20px auto;                
+  padding: 0 20px;
+}

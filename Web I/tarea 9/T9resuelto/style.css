@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5; 
+  margin: 0;
+  padding: 0;
+}
+main{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding: 20%px;
+  border-radius: 8px;
+}
+.titulo h1 {
+  color: #009dff; 
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.imagen1{
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  margin-bottom: 20px;    
+  max-width: 100%;  
+  height: auto;     
+  border-radius: 5px;
+}
+p{
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #333;
+}
+.titulo2 h2 {
+  color: #009dff; 
+  margin-bottom: 20px;
+}
+
+.izquierda {
+  float: left;
+  width: 20%; 
+  height: auto; 
+}
+
+.derecha {
+  float: right;
+  width: 15%; 
+  height: auto; 
+}
