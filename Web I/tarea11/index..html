@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        background-color: #f2f2f2;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;        
+    }
+.container {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 20px;
+        width: 400px;
+        max-width: 90%;
+        text-align: center;
+    & h2 {
+        margin-top: 0;
+        color: #333;
+    }   
+    & input {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        text-align: center;
+        padding: auto;
+    }
+    & button{
+        width: 100%;
+        background-color: #4c77af;
+        color:white;
+        border: none;
+        padding: 10px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+}
+
+    
+    
+</style>
+<body>
+    <div class="container">
+        <img src="logo-captura.png" alt="Lights" style="width:100%;">
+
+        <h2>Ingreso</h2>
+            <form>
+                <input type="text" placeholder="Codigo de Usuario" required>
+                <input type="password" placeholder="Contraseña" required>
+                <button type="submit">Entrar</button>
+            </form>
+        <p>No puede recordar su contraseña?</p>
+        <a href="index.html">Recupere su Contraseña</a>
+    </div>
+</body>
+</html>
