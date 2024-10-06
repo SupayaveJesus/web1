@@ -1,0 +1,88 @@
+/* Estilos Generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2ab28d; /* Fondo verde */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.container img {
+    width: 80px; /* Tamaño del ícono del usuario */
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.form-box {
+    background-color: #ffffff; /* Fondo blanco del contenedor */
+    padding: 50px 30px; /* Añadimos un padding interno para que no choquen los elementos */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 380px; /* Ancho máximo */
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #f7f7f7;
+    box-sizing: border-box; /* Para asegurar que no se salga del cuadro */
+}
+
+button {
+    width: 100%;
+    background-color: #f9c933; /* Botón amarillo */
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #f8b500;
+}
+
+.forgot {
+    margin-top: -30px;
+    font-size: 14px;
+    color: #333;
+    display: block; /* Aseguramos que aparezca en una nueva línea */
+}
+
+.forgot a {
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+.forgot a:hover {
+    text-decoration: underline;
+}
+
+/* Ajuste para pantallas pequeñas */
+@media (max-width: 400px) {
+    .form-box {
+        padding: 20px 20px;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    button {
+        padding: 12px;
+    }
+}
