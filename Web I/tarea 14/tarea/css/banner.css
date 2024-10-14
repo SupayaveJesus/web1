@@ -1,0 +1,89 @@
+.banner{
+    margin: 50px 0px 0px;
+    font-family: 'Bebas', sans-serif;
+    position: relative;
+}
+
+.banner__subtitle{
+    position: absolute;
+    left: 0px;
+    bottom: 3px;
+    background-color: #404040;
+    padding: 14px 18px 12px 17px;
+}
+
+.banner__subtitle__text1{    
+    color: #9a9a9a;
+    font-size: 14px;
+    display: block;
+}
+
+
+.banner__subtitle__text2{    
+    color: #fff;
+    font-size: 28px;
+}
+
+.banner__footer{
+    color: #474747;
+    background-color: rgba(180, 180, 180, 0.1);
+    margin-top: -3px;
+    padding: 20px 15px;
+}
+
+.banner__footer__title{
+    font-size: 16px;
+    font-family: 'Bebas', sans-serif;
+    margin: 0px;
+}
+
+.banner__footer p{
+    font-family: 'HelveticaNeue', sans-serif;	
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+
+/* Estilo para la imagen del banner */
+.banner {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 20px;
+    overflow: hidden; /* Aseguramos que no haya elementos que salgan del banner */
+}
+
+.banner__img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.banner-navigation {
+    position: absolute;
+    display: flex;
+    gap: 8px; 
+    right: 0px;
+    bottom: 0px;
+    padding: 10px;
+}
+
+.nav-link {
+    display: inline-block;
+    width: 25px; 
+    height: 6px; 
+    background-color: #ffffff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    cursor: pointer;
+    background-color: #474747;
+}
+
+.nav-link.active {
+    background-color: #474747; 
+}
+

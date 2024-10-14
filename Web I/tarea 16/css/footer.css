@@ -1,0 +1,23 @@
+footer{
+    background: rgb(247, 247, 247);
+    color: rgb(172, 172, 172);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+footer::before{
+    content: " ";
+    display: block;
+    height: 10px;
+    width: 100%;
+    background-image: url('img/title-bg.png');
+    background-repeat: repeat-x;
+}
+
+.footer__content{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 940px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 30px 0px;
+}

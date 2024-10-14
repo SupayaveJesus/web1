@@ -1,0 +1,59 @@
+/* Latest Work Section */
+.latest-work {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.latest-work__title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-card {
+    background-color: white;
+    width: 22%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+}
+
+.project-title {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+.project-description {
+    font-size: 0.9rem;
+    color: #474747;
+    margin: 20px 0;
+}
+
+.project-link {
+    font-size: 0.9rem;
+    color: #474747;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px solid #474747;
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.project-link:hover {
+    color: #474747;
+    border-color: #474747;
+}
